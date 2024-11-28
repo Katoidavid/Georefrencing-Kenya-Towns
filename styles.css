@@ -1,0 +1,94 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+/* Title styling */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #007bff; /* Appealing blue color */
+  margin-bottom: 20px;
+}
+
+h2,
+h3 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+.form-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.form-section label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.form-section input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 150px;
+}
+
+.form-section button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Map container */
+#map {
+  height: 400px;
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Result section */
+#result-section {
+  margin-top: 20px;
+}
+
+#townResult {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ff5722; /* Attractive orange for town name */
+}

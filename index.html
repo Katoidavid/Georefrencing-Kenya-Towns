@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Georeferencing Kenya Towns</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Include Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Georeferencing Kenya Towns</h1>
+      <div class="form-section">
+        <label for="latitude">Latitude:</label>
+        <input type="text" id="latitude" placeholder="-1.286389" />
+        <label for="longitude">Longitude:</label>
+        <input type="text" id="longitude" placeholder="36.817223" />
+        <button id="getTownButton">Get Town Name</button>
+      </div>
+      <!-- Map container -->
+      <div id="map"></div>
+      <!-- Result Section -->
+      <div id="result-section">
+        <h3>Result:</h3>
+        <p id="townResult">Town name will appear here</p>
+      </div>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
